@@ -123,4 +123,8 @@ text-align: center;
    color: #0011fa;
    font-family: 'Press Start 2P', cursive;
  }
-
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
