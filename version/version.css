@@ -1,0 +1,52 @@
+
+.changelog-section {
+  background-color: rgba(0, 0, 0, .25);
+  padding: 20px;
+}
+
+
+.changelog-heading {
+  font-size: 24px;
+  color: #ff0000;
+  margin-bottom: 5px;
+}
+
+
+.changelog-item {
+  margin-bottom: 15px;
+}
+
+
+.version-number {
+  font-size: 18px;
+  color: #4CAF50;
+}
+
+
+.date {
+  font-size: 14px;
+  color: #f5dbdb;
+}
+
+
+.description {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+
+.changelog-section {
+  font-family: Arial, sans-serif;
+}
+body {
+   height: 100vh;
+   width: 100vw;
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   margin: 20px;
+   background-image: url(/images/4k-space-purple-nebula-9l0wgukn25jl3pgq.jpg);
+   background-size: cover;
+   background-position: contain;
+   background-repeat: no-repeat;
+
+}

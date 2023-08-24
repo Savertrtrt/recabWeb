@@ -1,0 +1,136 @@
+ body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   margin: 20px;
+   background-image: url(/images/4k-space-purple-nebula-9l0wgukn25jl3pgq.jpg);
+   background-size: 100%;
+   background-position: contain;
+   background-color: rgba(0, 0, 0, .25);
+ }
+
+ h1 {
+   font-size: 50px;
+   text-align: center;
+   color: #ff0000;
+ }
+
+ p {
+   color: #400;
+ }
+
+ .test-question {
+   margin-bottom: 10px;
+   font-size: 15px;
+ }
+
+ .test-question label {
+   margin-right: 20px;
+   display: block;
+ }
+
+ #result {
+   margin-top: 20px;
+   font-weight: bold;
+   text-align: center;
+   color: #333;
+ }
+
+ ol {
+   list-style: none;
+   padding: 0;
+ }
+
+ li {
+   margin-bottom: 20px;
+ }
+
+ button {
+   background-color: #4CAF50;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+ }
+
+ button:hover {
+   background-color: #45a049;
+ }
+
+ version {
+   position: absolute;
+   bottom: 20px;
+   right: 20px;
+   font-size: 20px;
+   color: #420505;
+ }
+
+ @media (max-width: 600px) {
+   h1 {
+     font-size: 22px;
+   }
+
+   p {
+     font-size: 16px;
+   }
+
+   .test-question label {
+     font-size: 20px;
+   }
+
+   li {
+     font-size: 15px;
+   }
+
+   button {
+     font-size: 20px;
+   }
+ }
+
+
+ body.night-mode {
+   background-color: #201d1d;
+   color: #ffffff;
+   transition: background-color 0.5s, color 0.5s;
+ }
+
+ body.night-mode h1,
+ body.night-mode p,
+ body.night-mode .test-question,
+ body.night-mode button {
+   background-color: rgba(0, 0, 0, .25);
+   transition: background-color 0.5s;
+ }
+
+ body.night-mode #result {
+   color: #ddd;
+ }
+
+ body.night-mode #congratulations-message {
+   color: #4CAF50;
+ }
+
+ 
+ button {
+   background-color: #4CAF50;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.5s;
+ }
+
+ button:hover {
+   background-color: #45a049;
+ }
+
+ button.night-mode {
+   background-color: #ad5252;
+ }
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
