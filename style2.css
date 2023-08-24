@@ -1,5 +1,5 @@
  h2 {
-   font-size: 50px;
+   font-size: 30px;
    text-align: center;
    color: #f600fa;
    font-family: 'Press Start 2P', cursive;
@@ -57,7 +57,7 @@ text-align: center;
  }
 
 #button_confirm {
-   background-color: #571060;
+   background-color: #8628b8;
    color: white;
    padding: 15px 20px;
    border: none;
