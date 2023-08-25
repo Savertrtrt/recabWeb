@@ -58,16 +58,17 @@ text-align: center;
 
 #button_confirm {
    background-color: #8628b8;
-   color: white;
+   color: red;
    padding: 15px 20px;
    border: none;
    border-radius: 3px;
    cursor: pointer;
 text-align: center; 
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'Press Start 2P', cursive;
 }
 #button_1 {
    background-color: #8628b8;
@@ -78,23 +79,23 @@ text-align: center;
    cursor: pointer;
 text-align: center; 
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'Press Start 2P', cursive;
 }
  button:hover {
    background-color: #65138b;
  }
 
  body {
-   font-family: Arial, sans-serif;
    line-height: 1.6;
    margin: 20px;
    background-color: #65138b;
    background-image: url(/images/4k-space-purple-nebula-9l0wgukn25jl3pgq.jpg);
    background-size: 100%;
    background-position: contain;
-   
+   font-family: 'Press Start 2P', cursive;
  }
 
  img {
