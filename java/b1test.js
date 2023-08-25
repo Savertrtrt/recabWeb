@@ -41,16 +41,18 @@ function checkAnswers() {
 
   const checkButton = document.querySelector("button");
   checkButton.disabled = true;
-
+  const nexttestElement= document.getElementById("nexttest")
   const retestElement = document.getElementById("retest");
   if (score >= 15) {
     retestElement.style.display = "none"; 
     const congratulationsMessage = document.getElementById("congratulations-message");
     congratulationsMessage.style.display = "block"; 
+    nexttestElement.style.display = "block"
   } else {
     retestElement.style.display = "block"; 
     const congratulationsMessage = document.getElementById("congratulations-message");
     congratulationsMessage.style.display = "none";
+    nexttestElement.style.dispaly = "block";
   }
 }
 
