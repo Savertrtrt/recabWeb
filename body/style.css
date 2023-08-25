@@ -3,9 +3,9 @@
    line-height: 1.6;
    margin: 20px;
    background-image: url(s);
-   background-size: 100%;
+   background-size: 10%;
    background-position: contain;
-   background-color: lightblue;
+   background-color: #cae8f2;
  }
 
  h1 {
