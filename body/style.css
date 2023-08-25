@@ -139,3 +139,6 @@
 #retest{
   display: none;
 }
+strong{
+  font-size: 25px;
+}
