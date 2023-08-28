@@ -96,11 +96,13 @@
 
  body.night-mode h1,
  body.night-mode p,
- body.night-mode .test-question,
- body.night-mode button {
+ body.night-mode .test-question {
    background-color:  #272525;
    transition: background-color 0.5s;
  }
+ body.night-mode button{
+  background-color: #000000;
+}
 
  body.night-mode #result {
    color: #ddd;
