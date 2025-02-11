@@ -1,7 +1,6 @@
 blackhole('#blackhole');
 
 
-
 function blackhole(element) {
 	var h = $(element).height(),
 	    w = $(element).width(),
