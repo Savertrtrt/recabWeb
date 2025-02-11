@@ -1,7 +1,14 @@
 blackhole('#blackhole');
 
 
-function blackhole(element) {
+
+$(document).ready(function () {
+	$(".centerHover").on("click", function () {
+	  window.location.href = "selecttest.html"; // Change this to your target page
+	});
+  });
+  
+  function blackhole(element) {
 	var h = $(element).height(),
 	    w = $(element).width(),
 	    cw = w,
