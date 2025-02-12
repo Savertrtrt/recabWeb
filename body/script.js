@@ -4,7 +4,9 @@ blackhole('#blackhole');
 
 $(document).ready(function () {
 	$(".centerHover").on("click", function () {
+	setTimeout(function () {
 	  window.location.href = "selecttest.html"; // Change this to your target page
+	}, 2000);
 	});
   });
   
