@@ -24,7 +24,7 @@ $(document).ready(function () {
 
 	var stars = [],
 	    collapse = false, // if hovered
-	    expanse = false; // if clicked
+	    expanse = true; // if clicked
 
 	var canvas = $('<canvas/>').attr({width: cw, height: ch}).appendTo(element),
 	    context = canvas.get(0).getContext("2d");
