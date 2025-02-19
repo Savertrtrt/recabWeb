@@ -1,8 +1,9 @@
  h2 {
-   font-size: 30px;
+   font-size: 50px;
    text-align: center;
-   color: #f600fa;
-   font-family: 'Press Start 2P', cursive;
+   color: #378039;
+   font-weight: bold;
+   font-family: 'Inter';
  }
 
  @media (max-width: 600px) {
@@ -57,32 +58,35 @@ text-align: center;
  }
 
 #button_confirm {
-   background-color: #8628b8;
+   background-color: #0011FA;
    color: red;
    padding: 15px 20px;
    border: none;
    border-radius: 3px;
    cursor: pointer;
 text-align: center; 
+font-size: xx-large;
   position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Inter', cursive;
 }
 #button_1 {
-   background-color: #8628b8;
+  margin-top: 10rem;
+   background-color: #0011FA;
    color: white;
    padding: 15px 20px;
    border: none;
    border-radius: 3px;
    cursor: pointer;
-text-align: center; 
+  text-align: center; 
+  font-size: xx-large;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Inter', cursive;
 }
  button:hover {
    background-color: #65138b;
@@ -92,10 +96,10 @@ text-align: center;
    line-height: 1.6;
    margin: 20px;
    background-color: #65138b;
-   background-image: url(/images/4k-space-purple-nebula-9l0wgukn25jl3pgq.jpg);
+   background-image: url(/images/wallpaper_landing.jpg);
    background-size: 100%;
    background-position: contain;
-   font-family: 'Press Start 2P', cursive;
+   font-family: 'Inter';
  }
 
  img {
@@ -122,7 +126,7 @@ text-align: center;
    font-size: 50px;
    text-align: center;
    color: #0011fa;
-   font-family: 'Press Start 2P', cursive;
+   font-family: 'Inter';
  }
 a:visited {
   color: red;
