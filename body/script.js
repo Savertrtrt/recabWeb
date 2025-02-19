@@ -1,3 +1,6 @@
+blackhole('#blackhole');
+
+
 
 $(document).ready(function () {
 	$(".centerHover").on("click", function () {

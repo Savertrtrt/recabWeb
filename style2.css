@@ -96,7 +96,7 @@ font-size: xx-large;
    line-height: 1.6;
    margin: 20px;
    background-color: #65138b;
-   background-image: url(wallpaper_landing.jpg);
+   background-image: url(/images/wallpaper_landing.jpg);
    background-size: 100%;
    background-position: contain;
    font-family: 'Inter';
