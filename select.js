@@ -11,7 +11,7 @@ function onSubmit() {
     confirmButtonText: 'Yes, bring me to it!'
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.href = './body/selecttest.html';
+      href ="selecttest.html";
     }
   })
 }
