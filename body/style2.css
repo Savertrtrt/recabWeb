@@ -5,7 +5,7 @@
    background-image: url(/images/4k-space-purple-nebula-9l0wgukn25jl3pgq.jpg);
    background-size: 100%;
    background-position: contain;
-   background-color: rgba(0, 0, 0, .25);
+   background-color: rgba(250, 0, 0, 0.25);
    display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@
    margin-top: 20px;
    font-weight: bold;
    text-align: center;
-   color: #333;
+   color: #d30000;
  }
 
  ol {
